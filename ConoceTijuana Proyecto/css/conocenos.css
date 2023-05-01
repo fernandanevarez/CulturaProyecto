@@ -1,0 +1,199 @@
+body {
+    background-image: none;
+    background-color: #fafafa;
+ }
+ header {
+    background-color: none;
+ }
+ /*Modificaciones del css del sistema de perfiles */
+.lista-perfil a {
+    color: #e7cece;
+}
+.informacion_tendencias_contactanos {
+    background-color: #fafafa;
+    display: block;
+    margin: auto 15%;
+}
+.contenedor_informacion_tendencias {
+    background-color: #fafafa;
+}
+.header {
+    background-color: none;
+    z-index: 30;
+}
+.container-menu {
+    z-index: 40;
+}
+.perfil-usuario-contactanos {
+    background: none;
+}
+.perfil-usuario-contactanos img {
+    width: 100%;
+}
+.contenedor-perfil {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.perfil-usuario-contactanos .contenedor-perfil-contactanos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.perfil-usuario-contactanos .portada-perfil {
+    display: block;
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/10/11/38/festival-3466251_640.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30rem;
+    margin-bottom: .5rem;
+}
+.perfil-usuario-contactanos .avatar-perfil {
+    display: block;
+    width: 230px;
+    height: 230px;
+    background-color: #D9DCF1;
+    position: absolute;
+    bottom: -65px;
+    left: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, .2);
+}
+.perfil-usuario-contactanos .datos-perfil {
+    position: absolute;
+    display: block;
+    width: calc(100% - 230px - 8rem);
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+.perfil-usuario-contactanos .titulo-usuario {
+    font-size: 2.3rem;
+    white-space: nowrap;
+    margin-bottom: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.perfil-usuario-contactanos .bio-usuario {
+    font-size: 1em;
+    margin-bottom: .75rem;
+}
+.perfil-usuario-contactanos .lista-perfil {
+    list-style: none;
+}
+.perfil-usuario-contactanos .lista-perfil li {
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 1rem;
+}
+
+.perfil-usuario-contactanos .opcciones-perfil {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+}
+.perfil-usuario-contactanos .opcciones-perfil button {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    cursor: pointer;
+}
+.perfil-usuario-contactanos .menu-perfil ul {
+    display: flex;
+    list-style: none;
+    margin-left: calc(200px + 8rem);
+    width: calc(100% - 200px - 8rem);
+}
+.perfil-usuario-contactanos .menu-perfil ul li {
+    margin-right: 1rem;
+}
+.perfil-usuario-contactanos .menu-perfil a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all ease-in 100ms;
+}
+.perfil-usuario-contactanos .menu-perfil a:hover {
+    background-color: rgb(128, 3, 128);
+    color: #fff;
+}
+.perfil-usuario-contactanos .icono-perfil {
+    display: none;
+    margin-right: .75rem;
+}
+/*Contenedor del contenido de la pag*/
+.informacion_tendencias {
+    display: block;
+    background-color: #e7cece;
+    margin: auto 20%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.contenedor_informacion_tendencias h2 {
+    font-size: 18px;
+}
+/*Responsive*/
+@media (max-width: 780px) {
+    .perfil-usuario-contactanos .contenedor-perfil-contactanos {
+        width: 100%;
+    }
+    .perfil-usuario-contactanos .avatar-perfil {
+        left: calc(50% - 115px)
+    }
+    .perfil-usuario-contactanos .datos-perfil {
+        bottom: 200px;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    .perfil-usuario-contactanos .bio-usuario {
+        font-size: 1em;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .perfil-usuario-contactanos .titulo-usuario {
+        font-size: 2.1rem;
+    }
+    .perfil-usuario-contactanos .portada-perfil {
+        height: 28rem;
+    }
+    .perfil-usuario-contactanos .menu-perfil ul {
+        flex-direction: column;
+    }
+    .perfil-usuario-contactanos .lista-perfil {
+        display: block;
+    }
+    .perfil-usuario-contactanos .menu-perfil {
+        margin-top: 2rem;
+    }
+    .perfil-usuario-contactanos .menu-perfil ul {
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2.5rem;
+        width: 70%;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 0 12px 2px rgba(0, 0, 0, .1);
+    }
+    .perfil-usuario-contactanos .icono-perfil {
+        display: inline-block;
+    }
+}
