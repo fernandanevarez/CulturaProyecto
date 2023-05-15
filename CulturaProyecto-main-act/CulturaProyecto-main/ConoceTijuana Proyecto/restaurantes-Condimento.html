@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/contacto-lugares.css.css">
+    <link rel="stylesheet" href="css/menu_lateral_estilos.css">
+    <link rel="stylesheet" href="css/mi_perfil_mis_fotos.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="css/cultura.css">
+    <link rel="stylesheet" href="css/conocenos.css">
+    <link rel="stylesheet" href="comentario-master/comentario-master/estilos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/condimento.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <title>Condimento-Las Maravillas de Tijuana</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c9841772f3.css" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/c9841772f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- El navBar-->
+     <header class="header">
+      <div class="container">
+      <div class="btn-menu">
+        <label for="btn-menu"><i class="fa-solid fa-bars" ></i></label>
+      </div>
+          <div class="logo">
+              <H1> Condimento</H1>
+          </div>
+      </div>
+</header>
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+      <a href="index.html"><i class="fa-solid fa-home"></i>Inicio</a>
+      <a href="mi_perfil.html.html"><i class="fa-solid fa-user"></i>Mi perfil</a>
+        <a href="conocenos.html"><i class="fa-solid fa-buildings"></i>Sobre TourJoy</a>
+        <a href="lugares.html">	<i class="fa-solid fa-utensils"></i>Restaurantes</a>
+          <a href="cultura.html"> <i class="fa-solid fa-landmark"></i>Centros turisticos</a>
+          <a href="hoteleria.html"> <i class="fa-solid fa-hotel"></i>Hoteleria</a>
+      <a href="sobretijuana.html"><i class="fa-solid fa-location-dot"></i>Sobre Tijuana</a>
+          <a href="guias.html"><i class="fa-sharp fa-solid fa-people-group"></i>Guia turistica</a>
+      </nav>
+		<label for="btn-menu"><i class="fas fa-times"></i></label>
+	</div>
+</div>
+</div>
+<section class="perfil-usuario-contactanos">
+  <div class="contenedor-perfil-contactanos">
+      <div class="portada-perfil" style="background-image: url(https://cdn.pixabay.com/photo/2017/08/03/21/48/drinks-2578446_1280.jpg);">
+          <div class="avatar-perfil">
+              <img src="data:image/png;base64,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" alt="">
+          </div>
+
+          <div class="datos-perfil">
+              <h4 class="titulo-usuario">Condimento</h4>
+              <p class="bio-usuario">Buffet && alta cocina mexicana</p>
+              <ul class="lista-perfil">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                <li><a href="https://www.facebook.com/CondimentoRest/"><i class="fa-brands fa-facebook"></i> Facebook</li></a>
+              </ul>
+          </div>
+          </div>
+          <div class="menu-perfil">
+            <ul>
+                <li><a href="index.html" title=""><i class="icono-perfil fas fa-bullhorn"></i> <i class="fa-solid fa-house"></i> Ir a inicio</a></li>
+                <li><a href="mi_perfil.html.html" title=""><i class="icono-perfil fas fa-info-circle"></i><i class="fa-solid fa-user"></i> Ir a mi cuenta</a></li>
+                <li><a href="lugares.html" title=""><i class="fa-solid fa-utensils"></i> Ver mas restaurantes</a></li>
+            </ul>
+        </div>
+  </div> <br>
+<figure class="menu"><br>
+  <div class="container_grid_container">
+    <div class="grid_contenedor">
+        <div class="images">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpZFq_dhRzdA-h0PbTW2e4dxtWjfyCa0gH6g&usqp=CAU" class="grid_imagen" alt="Interiores | Condimento"> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjo0YluQdFePlUYTzWNbHTrQWcPF9J6kYG6w&usqp=CAU" class="grid_imagen" alt="Exteriores | Condimento">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3FPxZhpxcxlprxJ9HcRKUGzzFFTtjwp_TfA&usqp=CAU" class="grid_imagen" alt="Potres | Condimento">
+        </div><br>
+        <div class="modal">
+            <span class="close"><i class="fas fa-times"></i></span>
+            <div class="modalContent">
+              <img src="" class="modalImg"/>
+              <span class="modalTxt"></span>
+            </div>
+          </div>
+    </div>
+        <script src="javascript/modales.js"></script>
+</div>
+</div>
+  <h3>Menú:</h3>
+  <br>
+  <iframe src="https://www.sluurpy.mx/tijuana/restaurante/2310608/condimento-restaurant" frameborder="0"></iframe>
+</figure>
+<div class="container">
+  <div class="row-flex">
+    <div class="flex-column-form">
+      <h3>
+        Hacer una reserva
+      </h3>
+    <form class="media-centered">
+        <div class="form-group">
+          <p>
+            ¡Realiza una reservación!
+          </p>
+          <form action="https://formsubmit.co/l22211621@tectijuana.edu.mx" method="POST">
+          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Ingresa tu número">
+        </div>
+        <button type="submit" class="btn-sumbit">Enviar</button>
+    </form>
+    </div>
+    <div class="opening-time">
+      <h3>
+       Horarios
+      </h3>
+      <p>
+       <span>Lunes-Miercoles: 08:00 — 22:00</span> 
+       <span>Jueves-Sábado: 09:00 — 23:00 </span>
+       <span>Domingo: 10:00 — 17:00</span>
+      </p>
+    </div>
+    <div class="contact-adress">
+      <h3>
+        Contáctanos
+      </h3>
+      <p>
+        <span>Blvd. Agua Caliente 11553, Zona Urbana Rio Tijuana, 22420 Tijuana, B.C.</span>
+      </p>
+    </div>
+  </div>
+  </div>
+    <div class="informacion_tendencias">
+      <div class="contenedor_informacion_tendencias">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.5443068348923!2d-117.00165962579163!3d32.51160669750493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9481a9d655555%3A0x6c8186e61a0f8f69!2sCondimento%20Restaurant!5e0!3m2!1ses!2smx!4v1684169356609!5m2!1ses!2smx" width="100%" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contenedor" id="contenedor">
+          <div class="padre" id="principal">
+                  <div class="avatar"></div>
+                  <h2>TourPage</h2>
+                  <div class="texto">
+                      <input type="text" id="comment" class="textoCaja" placeholder="Escribe una reseña">
+                      
+                  </div>
+              </div>
+              <script src="app.js"> </script>
+          <div>
+      </div>
+      </div>
+      <script src="comentario-master/comentario-master/app.js"></script>
+      </div></div>
+      <footer>
+    <div class="footer-wrap">
+      <div class="widgetFooter">
+        <h4 class="uppercase">Equipo</h4>
+        <ul id="footerUsefulLink">
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;Damian V.C
+          </li>
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;America N.C.
+          </li>
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;Karla V.C
+          </li>
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;Luis R.C
+          </li>
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;Luis R.H
+          </li>
+        </ul>
+      </div>
+      <div class="widgetFooter" id="footerLogo">
+        <p>Copyrights<sup>&copy;</sup> 2023. By TouJoy</p>
+      </div>
+      <div class="widgetFooter">
+        <h4 class="uppercase">Las Maravillas de Tijuana</h4>
+        <ul id="footerMediaLinks">
+          <li class="media1" >
+            <span class="mediaLinksIcons fb">
+              <i class="fa-solid fa-shop"></i>
+            </span>
+            <a href="sobretijuana.html">&nbsp;Cultura</a>
+          </li>
+          <li class="media2" >
+            <span class="mediaLinksIcons twit">
+              <i class="fa-solid fa-landmark"></i>
+            </span>
+            <a href="sobretijuana.html">&nbsp;Historia</a>
+          </li>
+          <li class="media3" >
+            <span class="mediaLinksIcons insta">
+              <i class="fa-solid fa-fish"></i>
+            </span>
+            <a href="lugares.html">&nbsp;Gastronomia</a>
+          </li>
+          <li class="media4" >
+            <span class="mediaLinksIcons git">
+              <i class="fa-solid fa-car"></i>
+            </span>
+            <a href="cultura.html">&nbsp;Lugares</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </body>
+  </html>
+  </body>
+  </html>

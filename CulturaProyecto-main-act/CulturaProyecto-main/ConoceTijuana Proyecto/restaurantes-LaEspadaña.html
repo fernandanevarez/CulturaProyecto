@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/contacto-lugares.css.css">
+    <link rel="stylesheet" href="css/menu_lateral_estilos.css">
+    <link rel="stylesheet" href="css/index_css.css">
+    <link rel="stylesheet" href="css/cultura.css">
+    <link rel="stylesheet" href="css/conocenos.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/mi_perfil_mis_fotos.css">
+    <link rel="stylesheet" href="comentario-master/comentario-master/estilos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/condimento.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="icon" href="logo.png">
+    <title>La Espadaña-Las Maravillas de Tijuana</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c9841772f3.css" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/c9841772f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- El navBar-->
+     <header class="header">
+      <div class="container">
+      <div class="btn-menu">
+        <label for="btn-menu"><i class="fa-solid fa-bars" ></i></label>
+      </div>
+          <div class="logo">
+              <H1> La Espadaña</H1>
+          </div>
+      </div>
+</header>
+
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+      <a href="index.html"><i class="fa-solid fa-home"></i>Inicio</a>
+      <a href="mi_perfil.html.html"><i class="fa-solid fa-user"></i>Mi perfil</a>
+        <a href="conocenos.html"><i class="fa-solid fa-buildings"></i>Sobre TourJoy</a>
+        <a href="lugares.html">	<i class="fa-solid fa-utensils"></i>Restaurantes</a>
+          <a href="cultura.html"> <i class="fa-solid fa-landmark"></i>Centros turisticos</a>
+          <a href="hoteleria.html"> <i class="fa-solid fa-hotel"></i>Hoteleria</a>
+      <a href="sobretijuana.html"><i class="fa-solid fa-location-dot"></i>Sobre Tijuana</a>
+          <a href="guias.html"><i class="fa-sharp fa-solid fa-people-group"></i>Guia turistica</a>
+      </nav>
+		<label for="btn-menu"><i class="fas fa-times"></i></label>
+	</div>
+</div>
+</div>
+<section class="perfil-usuario-contactanos">
+  <div class="contenedor-perfil-contactanos">
+      <div class="portada-perfil" style="background-image: url(https://cdn.pixabay.com/photo/2017/03/31/18/02/strawberry-dessert-2191973_1280.jpg);">
+          <div class="avatar-perfil">
+              <img src="data:image/png;base64,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" alt="">
+          </div>
+          <div class="datos-perfil">
+            <h4 class="titulo-usuario">La Espadaña</h4>
+            <p class="bio-usuario">A sus ordenes</p>
+            <ul class="lista-perfil">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+              <li><a href="https://www.facebook.com/laespadana/?locale=es_LA"><i class="fa-brands fa-facebook"></i> Facebook</li></a>
+            </ul>
+        </div>
+        </div>
+        <div class="menu-perfil">
+          <ul>
+              <li><a href="index.html" title=""><i class="icono-perfil fas fa-bullhorn"></i> <i class="fa-solid fa-house"></i> Ir a inicio</a></li>
+              <li><a href="mi_perfil.html.html" title=""><i class="icono-perfil fas fa-info-circle"></i><i class="fa-solid fa-user"></i> Ir a mi cuenta</a></li>
+              <li><a href="lugares.html" title=""><i class="fa-solid fa-utensils"></i> Ver mas restaurantes</a></li>
+          </ul>
+      </div>
+</div> <br>
+  <figure class="menu">
+    <div class="container_grid_container">
+      <div class="grid_contenedor">
+          <div class="images">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKRUt1b_iWWjBVs1vmsNTvlHNYG0DK_7t-lg&usqp=CAU" class="grid_imagen" alt="Interiores | Espadaña"> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrQt5TO04c0eVWr_nc9ZGr8FwYDJ_XT-p6-A&usqp=CAU" class="grid_imagen" alt="Exteriores | Espadaña">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIuNkNxZgYC0lGBlnlrG9sS6lldf5UYwDKnw&usqp=CAU" class="grid_imagen" alt="Platos | Espadaña">
+          </div><br>
+          <div class="modal">
+              <span class="close"><i class="fas fa-times"></i></span>
+              <div class="modalContent">
+                <img src="" class="modalImg"/>
+                <span class="modalTxt"></span>
+              </div>
+            </div>
+      </div>
+          <script src="javascript/modales.js"></script>
+  </div>
+  </div>
+    <br><h3>Menú:</h3><br>
+    <iframe src="https://www.espadana.com.mx/menus" frameborder="0" width="100%" min-heigth="300px"></iframe>
+  </figure>
+<div class="container">
+  <div class="row-flex">
+    <div class="flex-column-form">
+      <h3>
+        Hacer una reserva
+      </h3>
+    <form class="media-centered">
+        <div class="form-group">
+          <p>
+            ¡Realiza una reservación!
+          </p>
+          <form action="https://formsubmit.co/l22211621@tectijuana.edu.mx" method="POST">
+          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Ingresa tu número">
+        </div>
+        <button type="submit" class="btn-sumbit">Enviar</button>
+    </form>
+    </div>
+    <div class="opening-time">
+      <h3>
+       Horarios
+      </h3>
+      <p>
+       <span>Lunes-Sábado: 11:00 — 20:00</span> 
+       <span>Domingo: 12:00 — 20:00 </span>
+      </p>
+    </div>
+    <div class="contact-adress">
+      <h3>
+        Contáctanos
+      </h3>
+      <p>
+        <span>Blvrd Gral Rodolfo Sánchez Taboada 10813, Zona Urbana Rio Tijuana, 22010 Tijuana, B.C.</span>
+      </p>
+    </div>
+  </div>
+  </div>
+  <div class="informacion_tendencias">
+    <div class="contenedor_informacion_tendencias">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.319048827096!2d-117.01208022579138!3d32.51762479719956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d948467d1b2593%3A0x6008ebeb3bb6457c!2sLa%20Espada%C3%B1a!5e0!3m2!1ses!2smx!4v1684169159889!5m2!1ses!2smx" width="100%" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="contenedor" id="contenedor">
+        <div class="padre" id="principal">
+                <div class="avatar"></div>
+                <h2>TourPage</h2>
+                <div class="texto">
+                    <input type="text" id="comment" class="textoCaja" placeholder="Escribe una reseña">
+                    
+                </div>
+            </div>
+            <script src="app.js"> </script>
+        <div>
+    </div>
+    </div>
+    <script src="comentario-master/comentario-master/app.js"></script>
+    </div></div>
+  <footer>
+    <div class="footer-wrap">
+      <div class="widgetFooter">
+        <h4 class="uppercase">Equipo</h4>
+        <ul id="footerUsefulLink">
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;Damian V.C
+          </li>
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;America N.C.
+          </li>
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;Karla V.C
+          </li>
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;Luis R.C
+          </li>
+          <li>
+            <span class="usefulLinksIcons">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            &nbsp;Luis R.H
+          </li>
+        </ul>
+      </div>
+      <div class="widgetFooter" id="footerLogo">
+        <p>Copyrights<sup>&copy;</sup> 2023. By TouJoy</p>
+      </div>
+      <div class="widgetFooter">
+        <h4 class="uppercase">Las Maravillas de Tijuana</h4>
+        <ul id="footerMediaLinks">
+          <li class="media1" >
+            <span class="mediaLinksIcons fb">
+              <i class="fa-solid fa-shop"></i>
+            </span>
+            <a href="sobretijuana.html">&nbsp;Cultura</a>
+          </li>
+          <li class="media2" >
+            <span class="mediaLinksIcons twit">
+              <i class="fa-solid fa-landmark"></i>
+            </span>
+            <a href="sobretijuana.html">&nbsp;Historia</a>
+          </li>
+          <li class="media3" >
+            <span class="mediaLinksIcons insta">
+              <i class="fa-solid fa-fish"></i>
+            </span>
+            <a href="lugares.html">&nbsp;Gastronomia</a>
+          </li>
+          <li class="media4" >
+            <span class="mediaLinksIcons git">
+              <i class="fa-solid fa-car"></i>
+            </span>
+            <a href="cultura.html">&nbsp;Lugares</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </body>
+  </html>
+  </body>
+  </html>

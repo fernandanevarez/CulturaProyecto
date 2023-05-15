@@ -1,0 +1,11 @@
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin: 0 1em;
+
+  }
+  img {
+    object-fit: cover;
+    height: 100%;
+  }
